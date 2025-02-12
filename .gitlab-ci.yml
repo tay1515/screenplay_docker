@@ -1,0 +1,28 @@
+image: docker:latest
+
+stages:
+  - test
+
+before_script:
+  - GRADLE_USER_HOME="$(pwd)/.gradle"
+  - export GRADLE_USER_HOME
+
+test-job:
+  stage: test
+  services:
+    - docker:dind
+  script:
+    - docker compose up --detach --wait hub chrome-node
+    - docker compose run gradle check
+    - gradle check
+  cache:
+    key: "$CI_COMMIT_REF_NAME"
+    policy: pull
+    paths:
+      - build
+      - .gradle
+  artifacts:
+    paths:
+      - "target/site/serenity/**"
+    when: always
+    expire_in: 30 days

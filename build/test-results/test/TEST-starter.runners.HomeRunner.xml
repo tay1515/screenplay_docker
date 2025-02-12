@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="starter.runners.HomeRunner" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="TAY" time="0.0">
+  <properties/>
+  <system-out><![CDATA[22:38:45.253 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///C:/Automatizacion/Proyectos_screenplay/screenplay_docker/src/test/resources/features/Login.feature
+22:38:45.302 [Test worker] INFO  -- 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at https://serenity-bdd.info                                     
+ Documentation at https://serenity-bdd.github.io                                     
+ Test Automation Training and Coaching: https://www.serenity-dojo.com                
+ Commercial Support: https://www.serenity-dojo.com/serenity-bdd-enterprise-support   
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+-------------------------------------------------------------------------------------
+
+22:38:45.307 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus -- Test suite started for story net.thucydides.model.domain.Story@8c5fe920
+22:38:45.316 [Test worker] INFO  -- Test Suite Started: Login
+22:38:45.376 [Test worker] DEBUG io.cucumber.core.plugin.SerenityReporter -- Running feature from file:///C:/Automatizacion/Proyectos_screenplay/screenplay_docker/src/test/resources/features/Login.feature
+22:38:45.379 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus -- Test suite started for story net.thucydides.model.domain.Story@8c5fe920
+22:38:45.379 [Test worker] INFO  -- Test Suite Started: Login
+22:38:54.309 [Test worker] DEBUG net.thucydides.model.reports.ReportService -- Reporting formats: [JSON]
+22:38:54.314 [Test worker] DEBUG net.thucydides.model.reports.ReportService -- Reporting formats: [JSON]
+22:38:54.324 [Test worker] DEBUG net.thucydides.model.reports.ReportService -- Generating reports for 1 test outcomes using: net.thucydides.model.reports.json.JSONTestOutcomeReporter@325162e9
+22:38:54.327 [pool-2-thread-1] DEBUG net.thucydides.model.reports.ReportService -- Processing test outcome Login:Inicio de sesion.
+22:38:54.327 [pool-2-thread-1] DEBUG net.thucydides.model.reports.ReportService -- net.thucydides.model.reports.json.JSONTestOutcomeReporter@325162e9: Generating report for test outcome: Login:Inicio de sesion.
+22:38:54.329 [pool-2-thread-1] DEBUG net.thucydides.model.reports.json.JSONTestOutcomeReporter -- Generating JSON report for Inicio de sesion. to file C:\Automatizacion\Proyectos_screenplay\screenplay_docker\target\site\serenity\df043c4dc0a9defd5033350ad6ececbb1a313ffae08e6da34770460ad3b92883.json)
+22:38:54.356 [pool-2-thread-1] DEBUG net.thucydides.model.reports.ReportService -- Processing test outcome Login:Inicio de sesion. done
+22:38:54.357 [Test worker] DEBUG net.thucydides.model.reports.ReportService -- Shutting down executor service
+22:38:54.357 [Test worker] DEBUG net.thucydides.model.reports.ReportService -- Reports generated in: 32 ms
+22:38:54.425 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Closing darkroom
+22:38:54.425 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine -- Darkroom processing line shutting down
+22:38:54.430 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom -- Closing darkroom
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
